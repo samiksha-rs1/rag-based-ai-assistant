@@ -36,20 +36,95 @@ Through custom chunk merging logic, the AI understands the "flow" of the lesson 
 Move all your video files to the `videos` folder.
 
 ### Step 2 - Convert to mp3
-Convert all the video files to mp3 by running `video_to_mp3.py`.
+Convert all the video files to mp3 by running `videos_to_mp3.py`.
 
 ### Step 3 - Convert mp3 to json 
 Convert all the mp3 files to json by running `mp3_to_json.py`.
 
-### Step 4 - Convert the json files to Vectors
-Use the file `preprocess_json.py` to convert the json files to a dataframe with Embeddings and save it as a joblib pickle.
+### Step 4 - Convert JSON to embeddings and build FAISS index
+Use `preprocess_json.py` to:
+- generate embeddings from transcript chunks
+- build a FAISS vector index
+- persist the index and metadata for retrieval
+
 
 ### Step 5 - Prompt generation and feeding to LLM
 Read the joblib file and load it into the memory. Then create a relevant prompt as per the user query and feed it to the LLM.
 
 ---
 
+## Project Architecture
+
+The system follows a strict Retrieval-Augmented Generation (RAG) pipeline
+to ensure answers are generated **only from course video transcripts**.
+
+                ┌──────────────────────┐
+                │   Educational Videos │
+                └──────────┬───────────┘
+                           │
+                           ▼
+                ┌──────────────────────┐
+                │  Audio Extraction    │
+                │  (videos_to_mp3.py)  │
+                └──────────┬───────────┘
+                           │
+                           ▼
+                ┌──────────────────────┐
+                │ Speech-to-Text       │
+                │  MP3 → JSON          │
+                │  (mp3_to_json.py)    │
+                └──────────┬───────────┘
+                           │
+                           ▼
+                ┌──────────────────────┐
+                │ Chunking & Cleaning  │
+                │ (merge_chunks.py)    │
+                └──────────┬───────────┘
+                           │
+                           ▼
+                ┌──────────────────────┐
+                │ Embedding Generation │
+                │ (preprocess_json.py) │
+                └──────────┬───────────┘
+                           │
+                           ▼
+                ┌──────────────────────┐
+                │ FAISS Vector Index   │
+                │ (Similarity Search)  │
+                └──────────┬───────────┘
+                           │
+        User Query          │
+            │              ▼
+            ▼   ┌──────────────────────┐
+        ┌────────► FAISS Retrieval     │
+        │       │ (Top-K transcript    │
+        │       │  chunks)             │
+        │       └──────────┬───────────┘
+        │                  │
+        ▼                  ▼
+┌────────────────────────────────────────┐
+│ Prompt Construction (STRICT RAG)       │
+│ - Retrieved chunks only                │
+│ - No external knowledge                │
+└───────────────┬────────────────────────┘
+                │
+                ▼
+        ┌───────────────────────┐
+        │  Large Language Model │
+        │   (Answer Generation) │
+        └──────────┬────────────┘
+                   │
+                   ▼
+        ┌────────────────────────┐
+        │ Final Answer with:     │
+        │ • Video Name           │
+        │ • Exact Timestamp      │
+        └────────────────────────┘
+
+
+
+
 ## Automated Testing
 To verify the system's "strictness" and accuracy, you can run the automated test suite:
 ```bash
-python tests/rag_tester_final.py
+python Tests/rag_tester_final.py
