@@ -1,0 +1,25 @@
+# Private API Keys
+.env
+
+# Large Media Files
+videos/
+audios/
+
+# Python Cache & Environment
+__pycache__/
+.venv/
+env/
+
+# Data Indexing
+*.joblib
+*.index
+
+# Debug/Temp Files
+output.json
+prompt.txt
+response.txt
+.DS_Store
+
+#unused 
+unused/ 
+jsons/

@@ -1,0 +1,1286 @@
+{
+    "chunks": [
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 0.0,
+            "end": 13.32,
+            "text": " In today's video, we will learn how audio, video and media elements are used in HTML.  In our very first video, we saw that we can embed videos in HTML.  Today I will tell you how the video is auto-played,"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 13.32,
+            "end": 22.52,
+            "text": " how to keep a muted video,  and how you can enable and disable the video controls.  Along with that, we will also see very closely about audio,"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 22.52,
+            "end": 32.68,
+            "text": " how media can be shown in an overall page.  So do like this video and stay in this video  because the examples I have used for video tags are very amazing."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 32.68,
+            "end": 44.2,
+            "text": " Let's go to the video screen.  Let's roll the intro.  Intro"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 44.2,
+            "end": 53.92,
+            "text": " Friends, this time I have made a folder named video10.  I will not waste your time by opening the open with code by right-clicking and shifting.  In fact, I will make it in index.html."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 53.92,
+            "end": 66.04,
+            "text": " And the topic of today's video is video.  How to play a video, how to put a video in an HTML file,  how to put audio, how to put media."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 66.04,
+            "end": 75.56,
+            "text": " So adding a video is very straightforward.  I will copy it here, which is our video tag.  It has an src attribute and it has some other attributes"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 75.56,
+            "end": 84.48,
+            "text": " about which I will discuss with you.  But first of all, I want to tell you here that video src is equal to  you will write here, so if you have video.mp4, it will play."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 84.48,
+            "end": 90.84,
+            "text": " I have video.mp4.  So let's see here, I have put it here with ctrl.  And I will click here and preview it."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 90.84,
+            "end": 96.6,
+            "text": " And you can see here that this video has come.  Now it is a very big video.  So what can I do?"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 96.6,
+            "end": 105.68,
+            "text": " I can give its width.  So I can say here width is equal to 555 pixels.  And as soon as I do 555 pixels, in fact, I don't need to write px."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 105.68,
+            "end": 111.68,
+            "text": " I will only do 555.  Like we don't need to write px in the image.  We don't need to write px here either."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 111.68,
+            "end": 118.8,
+            "text": " So as soon as I did width is equal to 555,  in fact, I do one thing, I do height is equal to 555  so that it gets smaller."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 118.8,
+            "end": 123.32,
+            "text": " In fact, I make it smaller.  I do 255.  And you see, it came here."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 123.32,
+            "end": 129.52,
+            "text": " Now I play it because I have clicked ctrl, I can play it.  Look here, the road is better than America.  What name did you tell?"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 129.52,
+            "end": 132.32,
+            "text": " Gopindra Jogi.  Where have you been in the US?  I have been to many places in the US."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 132.32,
+            "end": 135.6,
+            "text": " Name tell me.  Gopindra Jogi.  Hahaha."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 135.6,
+            "end": 141.92000000000002,
+            "text": " So, in this way, you can play the video.  Now here are some attributes of the video tag.  See, it is very simple to use the video tag."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 141.92000000000002,
+            "end": 146.12,
+            "text": " You should have a video.  You have given the path of the video.  After that, you have given the controls."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 146.12,
+            "end": 149.84,
+            "text": " So these controls will come to you.  You can download it.  You can do full screen."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 149.84,
+            "end": 154.79999999999998,
+            "text": " You can mute.  You can do picture in picture.  All this is automatically provided by your browser."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 154.79999999999998,
+            "end": 160.24,
+            "text": " But let me tell you about some attributes.  The first attribute is SRC.  So you know that put the video here."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 160.24,
+            "end": 168.88,
+            "text": " The name of the video file is SRC.  This video file can also come from the external URL.  You understand, if I have uploaded a video on Amazon S3 or somewhere else,"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 168.88,
+            "end": 174.24,
+            "text": " then I can also put the URL there.  I mean, it is not necessary that the file is in your computer.  It can also be on your server."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 174.24,
+            "end": 179.60000000000002,
+            "text": " It can also come from third party.  Now what does the controls do?  Adds video controls like play, pause and volume."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 179.60000000000002,
+            "end": 187.24,
+            "text": " Which we saw here in the Bhopendra Jogi video.  That you are getting the controls here.  Now what is this thing?"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 187.24,
+            "end": 193.04000000000002,
+            "text": " The browser automatically checks  what control ads will be in your video, what will not be.  Then see what will autoplay do?"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 193.04000000000002,
+            "end": 197.12,
+            "text": " It will automatically play as soon as the page loads.  Okay.  So if I put autoplay here,"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 197.12,
+            "end": 202.32,
+            "text": " let's say I put autoplay here.  Okay.  So see."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 202.32,
+            "end": 207.88,
+            "text": " So you can see here that it has been autoplayed.  Okay.  So I will remove autoplay from here."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 207.88,
+            "end": 216.07999999999998,
+            "text": " And our next attribute is loop.  That is, once our video is played,  it will keep looping."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 216.07999999999998,
+            "end": 224.48,
+            "text": " Like I show you.  So it started again.  Once I finished it, it started again."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 224.48,
+            "end": 228.88,
+            "text": " Okay.  So this loop works like this.  The next attribute is muted."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 228.88,
+            "end": 233.88,
+            "text": " Muted mutes the video.  So if I write here muted,  sometimes we want the video to be muted."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 233.88,
+            "end": 238.68,
+            "text": " In fact, when I add videos here,  on codewithhari.com,  and I demonstrate something,"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 238.68,
+            "end": 244.28,
+            "text": " like downloading VS Code or something,  then I use the muted attribute.  Because I don't want that when I record a video,"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 244.28,
+            "end": 248.28,
+            "text": " if there is any background noise,  you can hear it.  For example, I want to show you that this is the element."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 248.28,
+            "end": 252.68,
+            "text": " So I will scroll and make a video.  I will highlight it like this.  So I don't need audio in it."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 252.68,
+            "end": 258.68,
+            "text": " So I mute it.  So you can use the muted attribute on your website.  Then the poster."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 258.68,
+            "end": 262.68,
+            "text": " The poster is very important.  So I have an image here.  Download.jpg."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 262.68,
+            "end": 268.08,
+            "text": " Okay.  If I write here poster is equal to  and I write download.jpg,"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 268.08,
+            "end": 271.48,
+            "text": " then you will see something like this.  Okay.  This is how the poster looks."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 271.48,
+            "end": 274.68,
+            "text": " Then I will play it.  So the video will play.  So in a way, thumbnail."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 274.68,
+            "end": 277.08,
+            "text": " Okay.  You saw the thumbnail of the YouTube video, right?  It's exactly the same."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 277.08,
+            "end": 281.68,
+            "text": " This is the poster attribute.  So you can use all these attributes.  Width and height."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 281.68,
+            "end": 287.08,
+            "text": " You know that it specifies the dimension of the video.  Like I added both width and height here.  You saw."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 287.08,
+            "end": 296.08,
+            "text": " So I hope you understood this thing.  Now the thing I want to tell you after this is audio.  So this is for all the attributes of your video."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 296.08,
+            "end": 302.08,
+            "text": " It is very straightforward.  I want you to make a website.  Which I am going to give you at the end of this video."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 302.08,
+            "end": 306.08,
+            "text": " In quick quiz.  So listen to the quick quiz.  In fact, I will put the heading here."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 306.08,
+            "end": 309.08,
+            "text": " Quick quiz.  Okay.  So that I don't forget."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 309.08,
+            "end": 314.08,
+            "text": " I will give you this now.  And this is going to be a very interesting quiz.  And everyone must solve it."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 314.08,
+            "end": 318.08,
+            "text": " But before that.  As soon as you write audio.  Here comes SRC."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 318.08,
+            "end": 324.08,
+            "text": " And I have to put it in sachin.mp3 in SRC.  So as soon as I put it in sachin.mp3.  Now see here."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 324.08,
+            "end": 328.08,
+            "text": " I will reload it.  And there is no audio here.  Which is strange."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 328.08,
+            "end": 333.08,
+            "text": " Let's see what the problem is here.  I put SRC is equal to.  I have to write controls here too."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 333.08,
+            "end": 336.08,
+            "text": " So if I don't write controls.  Then I will not see the audio.  See now the audio has come."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 336.08,
+            "end": 340.08,
+            "text": " I can see the controls here.  I can also set its volume.  I play this audio."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 340.08,
+            "end": 344.08,
+            "text": " What is Sachin in Sachin?  Is it a stupid Sachin?  Okay."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 344.08,
+            "end": 347.08,
+            "text": " So this is our audio.  If I mute it and run it.  Then it will not work."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 347.08,
+            "end": 350.08,
+            "text": " And I can also increase it further.  Is it a stupid Sachin?  Okay."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 350.08,
+            "end": 353.08,
+            "text": " You have seen.  So this is audio named sachin.mp3.  Now what we will do."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 353.08,
+            "end": 357.08,
+            "text": " That.  We will see some attributes of this audio.  SRC you know."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 357.08,
+            "end": 361.08,
+            "text": " Source of the video file.  Okay.  Then after this controls."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 361.08,
+            "end": 364.08,
+            "text": " You know.  Play, pause or volume.  Which we just saw."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 364.08,
+            "end": 367.08,
+            "text": " What will autoplay do?  It will play it automatically.  If I have here."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 367.08,
+            "end": 370.08,
+            "text": " Autoplay.  What is Sachin in Sachin?  It will play automatically."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 370.08,
+            "end": 373.08,
+            "text": " Is it a stupid Sachin?  Okay.  So what does autoplay do?"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 373.08,
+            "end": 376.08,
+            "text": " It will play automatically.  Our audio.  After this."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 376.08,
+            "end": 379.08,
+            "text": " The next attribute.  That is loop.  What will loop do?"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 379.08,
+            "end": 382.08,
+            "text": " It will repeat.  If I want to loop it.  Then I have autoplay."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 382.08,
+            "end": 385.08,
+            "text": " And I will loop.  What is Sachin in Sachin?  Is it a stupid Sachin?"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 385.08,
+            "end": 388.08,
+            "text": " Once.  What is Sachin in Sachin?  Second time."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 388.08,
+            "end": 391.08,
+            "text": " Is it a stupid Sachin?  So you saw.  It was repeated."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 391.08,
+            "end": 394.08,
+            "text": " Means once it was played.  Then after that it was played again.  Because I had looped the audio."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 394.08,
+            "end": 397.08,
+            "text": " Okay.  So you have seen this thing.  Sachin.mp3."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 397.08,
+            "end": 400.08,
+            "text": " I looped.  Means once it was played.  Then it was played."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 400.08,
+            "end": 403.08,
+            "text": " Then it was played.  Okay.  What is Sachin?"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 403.08,
+            "end": 406.08,
+            "text": " Sachin.  Okay.  It was repeated."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 406.08,
+            "end": 409.08,
+            "text": " Because this MP3.  It will be played again and again.  So."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 409.08,
+            "end": 412.08,
+            "text": " There are many use cases.  When you want.  This MP3."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 412.08,
+            "end": 415.08,
+            "text": " To be repeated.  Okay.  So if you want."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 415.08,
+            "end": 418.08,
+            "text": " Your MP3 to be repeated.  Then you can use it.  Now."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 418.08,
+            "end": 421.08,
+            "text": " After this.  Muted.  What will it do?"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 421.08,
+            "end": 424.08,
+            "text": " It will mute the audio.  And definitely.  You don't want."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 424.08,
+            "end": 427.08,
+            "text": " By default.  Your audio to be mute.  In most of the cases."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 427.08,
+            "end": 430.08,
+            "text": " But.  Sometimes we will want.  That."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 430.08,
+            "end": 433.08,
+            "text": " The audio is muted.  And we can say here.  To the user."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 433.08,
+            "end": 436.08,
+            "text": " That brother.  Whoever wants to listen.  Unmute it."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 436.08,
+            "end": 439.08,
+            "text": " Sachin.  What is it?  When do we do this?"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 439.08,
+            "end": 442.08,
+            "text": " When there are multiple audios.  You want to show 5-6 audios at once.  You can mute them."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 442.08,
+            "end": 445.08,
+            "text": " Your user can play.  Unmute it.  And see."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 445.08,
+            "end": 448.08,
+            "text": " Okay.  So.  You have control in your hand."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 448.08,
+            "end": 451.08,
+            "text": " If you want.  You can use this thing.  Okay."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 451.08,
+            "end": 454.08,
+            "text": " In total.  This is the thing.  So."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 454.08,
+            "end": 457.08,
+            "text": " I hope.  You understood this thing.  You must have enjoyed."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 457.08,
+            "end": 460.08,
+            "text": " Now.  Preload.  The most confusing attribute."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 460.08,
+            "end": 463.08,
+            "text": " Is.  These values.  The first value can be none."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 463.08,
+            "end": 466.08,
+            "text": " This is the default value.  It indicates.  That the browser should not preload."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 466.08,
+            "end": 469.08,
+            "text": " The audio at all.  Okay.  Preload means."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 469.08,
+            "end": 472.08,
+            "text": " If you want.  The browser to fetch the data.  Then."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 472.08,
+            "end": 475.08,
+            "text": " You will use the preload attribute.  Otherwise.  You will not use the preload attribute."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 475.08,
+            "end": 478.08,
+            "text": " Okay.  Preload is equal to none.  It is the default value."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 478.08,
+            "end": 481.08,
+            "text": " Preload is equal to metadata.  Means.  That the browser."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 481.08,
+            "end": 484.08,
+            "text": " Only metadata.  That is.  The information about that audio file."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 484.08,
+            "end": 487.08,
+            "text": " It will preload it.  That is.  It will load it from the beginning."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 487.08,
+            "end": 490.08,
+            "text": " And what will happen by doing auto.  That the browser.  Will preload the entire audio."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 490.08,
+            "end": 493.08,
+            "text": " Okay.  So.  Preload is equal to auto."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 493.08,
+            "end": 496.08,
+            "text": " If I do.  It will download.  And automatically."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 496.08,
+            "end": 499.08,
+            "text": " It will load.  So that whenever the user plays it.  Then the audio is saved."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 499.08,
+            "end": 502.08,
+            "text": " Okay.  So.  This is the work of the preload attribute."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 502.08,
+            "end": 505.08,
+            "text": " And in interviews.  This preload attribute is asked a lot.  So you should know."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 505.08,
+            "end": 508.08,
+            "text": " What is the preload attribute?  Before moving forward.  I want you to share this playlist."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 508.08,
+            "end": 511.08,
+            "text": " With your friends.  Because I am seeing.  That the interest is declining a lot."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 511.08,
+            "end": 514.0799999999999,
+            "text": " As we are moving forward in the videos.  My request to you is.  That you like this video."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 514.0799999999999,
+            "end": 517.0799999999999,
+            "text": " And with that.  I will come to the end of this video.  And I will come to the end of this video."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 517.08,
+            "end": 520.08,
+            "text": " So you like this video.  And with that.  As you are forging this repository."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 520.08,
+            "end": 523.08,
+            "text": " You should also star it.  Okay.  Your star."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 523.08,
+            "end": 526.08,
+            "text": " Your likes.  All this will help me a lot.  To bring such free courses."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 526.08,
+            "end": 529.08,
+            "text": " So this was.  About audio and video tags.  Okay."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 529.08,
+            "end": 532.08,
+            "text": " I have told you all the attributes.  And you should definitely use it.  I will give you all the images."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 532.08,
+            "end": 535.08,
+            "text": " So that you can try out this thing.  Now a lot of people were asking.  Can we use replit?"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 535.08,
+            "end": 538.08,
+            "text": " See.  I have not used replit in this course.  But replit.com is an amazing website."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 538.08,
+            "end": 541.08,
+            "text": " So.  I will give you all the images.  So that you can try out this thing."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 541.08,
+            "end": 544.08,
+            "text": " Now a lot of people were asking.  Can we use replit?  See."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 544.08,
+            "end": 547.08,
+            "text": " I have not used replit in this course.  But replit.com is an amazing website.  If you want."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 547.08,
+            "end": 550.08,
+            "text": " You can use it in your phone.  If you want to run html.  There is a replit app."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 550.08,
+            "end": 553.08,
+            "text": " There is for iOS.  There is for Android.  So you can try it out."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 553.08,
+            "end": 556.08,
+            "text": " A lot of people are asking.  How to do recording in the phone.  Replit."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 556.08,
+            "end": 559.08,
+            "text": " But what I want now.  VS code.  Which most of the people."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 559.08,
+            "end": 562.08,
+            "text": " Want to use.  Prefer.  So I thought."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 562.08,
+            "end": 565.08,
+            "text": " Why not make videos in VS code.  But I personally.  Use replit a lot."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 565.08,
+            "end": 568.08,
+            "text": " Infact videos also come in replit.  Next topic is SVG.  So I will tell you."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 568.08,
+            "end": 571.08,
+            "text": " What is SVG.  SVG is.  SVG is."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 571.08,
+            "end": 574.08,
+            "text": " SVG is.  SVG is.  So I will tell you."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 574.08,
+            "end": 578.08,
+            "text": " What is SVG.  SVG is.  What is SVG."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 578.08,
+            "end": 581.08,
+            "text": " SVG is a format by which.  You can create an image.  With."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 581.08,
+            "end": 584.08,
+            "text": " High graphics.  Vector images.  So you will copy."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 584.08,
+            "end": 587.08,
+            "text": " So you can basically make a circle in it.  You can make all this.  So SVG is used in the same way."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 587.08,
+            "end": 590.08,
+            "text": " As.  How to use.  Our IMG tags."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 590.08,
+            "end": 593.08,
+            "text": " So see.  If I put SVG here.  So this SVG."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 593.08,
+            "end": 597.08,
+            "text": " Will come here.  So it has come here.  Video."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 597.08,
+            "end": 600.08,
+            "text": " Audio.  SVG.  These inline elements."
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 600.08,
+            "end": 606.08,
+            "text": " So that's the only.  that's why we are getting only one image in line  you guys have seen it here"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 606.08,
+            "end": 613.08,
+            "text": " now what is here is that you can save svg file separately  you can save svg file separately  like if i write here"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 613.08,
+            "end": 623.08,
+            "text": " img.svg and save svg content in it  so if i write here img  and write img.svg"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 623.08,
+            "end": 630.08,
+            "text": " so you guys see here that i didn't get this image  if i write alt here  and write my svg image"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 630.08,
+            "end": 636.08,
+            "text": " so you guys see here that my svg image is like this  but i didn't get svg  why this happened?"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 636.08,
+            "end": 648.08,
+            "text": " this happened because svg file in browser  i write and when you want to see svg file in browser  you will put a declaration above"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 648.08,
+            "end": 654.08,
+            "text": " i will show you  so i wrote svg file not showing  so here is an answer of stack overflow"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 654.08,
+            "end": 662.08,
+            "text": " which will tell you  so you have to write this  you have to add this"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 662.08,
+            "end": 669.08,
+            "text": " this is called namespace declaration  so you have to add svg  and now you guys see here svg is shown"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 669.08,
+            "end": 676.08,
+            "text": " this is very important  and when you guys will make websites in future  you will get stuck in this problem"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 676.08,
+            "end": 680.08,
+            "text": " i get stuck in this problem  so i am telling you  i have already told you the problem you will get stuck in"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 680.08,
+            "end": 686.08,
+            "text": " you didn't get the problem  i have told you the problem and solution  next topic is iframes"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 686.08,
+            "end": 695.08,
+            "text": " iframes is a very simple thing  you can embed another website in your website  like if i want to embed this webpage"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 695.08,
+            "end": 704.08,
+            "text": " so i can use iframes like this  so i wrote iframes and i will copy this url  and i will paste here"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 704.08,
+            "end": 711.08,
+            "text": " and you guys see here  this website is embedded in this iframes  you definitely want to embed in this big iframes"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 711.08,
+            "end": 717.08,
+            "text": " but if you want to embed  so you can embed like this  i will increase the height"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 717.08,
+            "end": 723.08,
+            "text": " so width is equal to width  width is equal to let's say 122  height is equal to 444"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 723.08,
+            "end": 729.08,
+            "text": " ok  so it came like this  now definitely it was coming in this width"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 729.08,
+            "end": 735.08,
+            "text": " so it came in this line  but if i increase the width  322"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 735.08,
+            "end": 741.08,
+            "text": " so you can see  my website is completely embedded  so you can embed a website"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 741.08,
+            "end": 747.08,
+            "text": " another use case of iframes is  youtube video  if you want to share youtube video"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 747.08,
+            "end": 753.08,
+            "text": " and click on embed  so it will give you iframes code  and you can start it here"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 753.08,
+            "end": 759.08,
+            "text": " if you want to start at a particular time  so you can do that here  the point at which you will start"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 759.08,
+            "end": 765.08,
+            "text": " and share it, that time will come here  let me show you  let's say i want to start from here"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 765.08,
+            "end": 771.08,
+            "text": " so i will click on share  after sharing i will click on embed  i will start at 1219"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 771.08,
+            "end": 777.08,
+            "text": " and i will copy it  and i will put it in my code  so i will comment this iframe"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 777.08,
+            "end": 783.08,
+            "text": " and i will put it in the iframe below  ok, i will do word wrap  so you can see the code properly"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 783.08,
+            "end": 789.08,
+            "text": " so now what i will do  after pasting it  i will show you the document"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 789.08,
+            "end": 795.08,
+            "text": " see this video is embedded here  so i hope you understood this  and"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 795.08,
+            "end": 801.08,
+            "text": " media in html is only this  pretty much ok, miscellaneous  you will get to see many things in html"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 801.08,
+            "end": 807.08,
+            "text": " but pretty much that's all about media  in html audio, video, media  this is what you will use"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 807.08,
+            "end": 813.08,
+            "text": " 95% of the times  now i will give you a quick quiz  and your quick quiz is"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 813.08,
+            "end": 819.08,
+            "text": " create a website  which shows videos of different category  and audios of"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 819.08,
+            "end": 825.08,
+            "text": " different categories  you can use youtube videos  in an iframe using"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 825.08,
+            "end": 831.08,
+            "text": " youtube's embedding feature  now what you have to do  you have to create a website"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 831.08,
+            "end": 837.08,
+            "text": " in which you will get a lot of content  now you can use video audio tags  and youtube's share feature"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 837.08,
+            "end": 843.08,
+            "text": " the way i have embedded youtube video  you can do the same  and create a very good website"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 843.08,
+            "end": 849.08,
+            "text": " and show me  you can give me a github comment  and you can also"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 849.08,
+            "end": 855.08,
+            "text": " tell me the code and explain  but do attempt this quiz  and do write sigma batch op in the comment section"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 855.08,
+            "end": 861.08,
+            "text": " access the playlist  like the video  and do write sigma batch op"
+        },
+        {
+            "number": "10",
+            "title": "Video, Audio & Media in HTML",
+            "start": 861.08,
+            "end": 865.08,
+            "text": " thank you so much guys for watching this video  and i will see you next time"
+        }
+    ],
+    "text": " In today's video, we will learn how audio, video and media elements are used in HTML. In our very first video, we saw that we can embed videos in HTML. Today I will tell you how the video is auto-played, how to keep a muted video, and how you can enable and disable the video controls. Along with that, we will also see very closely about audio, how media can be shown in an overall page. So do like this video and stay in this video because the examples I have used for video tags are very amazing. Let's go to the video screen. Let's roll the intro. Intro Friends, this time I have made a folder named video10. I will not waste your time by opening the open with code by right-clicking and shifting. In fact, I will make it in index.html. And the topic of today's video is video. How to play a video, how to put a video in an HTML file, how to put audio, how to put media. So adding a video is very straightforward. I will copy it here, which is our video tag. It has an src attribute and it has some other attributes about which I will discuss with you. But first of all, I want to tell you here that video src is equal to you will write here, so if you have video.mp4, it will play. I have video.mp4. So let's see here, I have put it here with ctrl. And I will click here and preview it. And you can see here that this video has come. Now it is a very big video. So what can I do? I can give its width. So I can say here width is equal to 555 pixels. And as soon as I do 555 pixels, in fact, I don't need to write px. I will only do 555. Like we don't need to write px in the image. We don't need to write px here either. So as soon as I did width is equal to 555, in fact, I do one thing, I do height is equal to 555 so that it gets smaller. In fact, I make it smaller. I do 255. And you see, it came here. Now I play it because I have clicked ctrl, I can play it. Look here, the road is better than America. What name did you tell? Gopindra Jogi. Where have you been in the US? I have been to many places in the US. Name tell me. Gopindra Jogi. Hahaha. So, in this way, you can play the video. Now here are some attributes of the video tag. See, it is very simple to use the video tag. You should have a video. You have given the path of the video. After that, you have given the controls. So these controls will come to you. You can download it. You can do full screen. You can mute. You can do picture in picture. All this is automatically provided by your browser. But let me tell you about some attributes. The first attribute is SRC. So you know that put the video here. The name of the video file is SRC. This video file can also come from the external URL. You understand, if I have uploaded a video on Amazon S3 or somewhere else, then I can also put the URL there. I mean, it is not necessary that the file is in your computer. It can also be on your server. It can also come from third party. Now what does the controls do? Adds video controls like play, pause and volume. Which we saw here in the Bhopendra Jogi video. That you are getting the controls here. Now what is this thing? The browser automatically checks what control ads will be in your video, what will not be. Then see what will autoplay do? It will automatically play as soon as the page loads. Okay. So if I put autoplay here, let's say I put autoplay here. Okay. So see. So you can see here that it has been autoplayed. Okay. So I will remove autoplay from here. And our next attribute is loop. That is, once our video is played, it will keep looping. Like I show you. So it started again. Once I finished it, it started again. Okay. So this loop works like this. The next attribute is muted. Muted mutes the video. So if I write here muted, sometimes we want the video to be muted. In fact, when I add videos here, on codewithhari.com, and I demonstrate something, like downloading VS Code or something, then I use the muted attribute. Because I don't want that when I record a video, if there is any background noise, you can hear it. For example, I want to show you that this is the element. So I will scroll and make a video. I will highlight it like this. So I don't need audio in it. So I mute it. So you can use the muted attribute on your website. Then the poster. The poster is very important. So I have an image here. Download.jpg. Okay. If I write here poster is equal to and I write download.jpg, then you will see something like this. Okay. This is how the poster looks. Then I will play it. So the video will play. So in a way, thumbnail. Okay. You saw the thumbnail of the YouTube video, right? It's exactly the same. This is the poster attribute. So you can use all these attributes. Width and height. You know that it specifies the dimension of the video. Like I added both width and height here. You saw. So I hope you understood this thing. Now the thing I want to tell you after this is audio. So this is for all the attributes of your video. It is very straightforward. I want you to make a website. Which I am going to give you at the end of this video. In quick quiz. So listen to the quick quiz. In fact, I will put the heading here. Quick quiz. Okay. So that I don't forget. I will give you this now. And this is going to be a very interesting quiz. And everyone must solve it. But before that. As soon as you write audio. Here comes SRC. And I have to put it in sachin.mp3 in SRC. So as soon as I put it in sachin.mp3. Now see here. I will reload it. And there is no audio here. Which is strange. Let's see what the problem is here. I put SRC is equal to. I have to write controls here too. So if I don't write controls. Then I will not see the audio. See now the audio has come. I can see the controls here. I can also set its volume. I play this audio. What is Sachin in Sachin? Is it a stupid Sachin? Okay. So this is our audio. If I mute it and run it. Then it will not work. And I can also increase it further. Is it a stupid Sachin? Okay. You have seen. So this is audio named sachin.mp3. Now what we will do. That. We will see some attributes of this audio. SRC you know. Source of the video file. Okay. Then after this controls. You know. Play, pause or volume. Which we just saw. What will autoplay do? It will play it automatically. If I have here. Autoplay. What is Sachin in Sachin? It will play automatically. Is it a stupid Sachin? Okay. So what does autoplay do? It will play automatically. Our audio. After this. The next attribute. That is loop. What will loop do? It will repeat. If I want to loop it. Then I have autoplay. And I will loop. What is Sachin in Sachin? Is it a stupid Sachin? Once. What is Sachin in Sachin? Second time. Is it a stupid Sachin? So you saw. It was repeated. Means once it was played. Then after that it was played again. Because I had looped the audio. Okay. So you have seen this thing. Sachin.mp3. I looped. Means once it was played. Then it was played. Then it was played. Okay. What is Sachin? Sachin. Okay. It was repeated. Because this MP3. It will be played again and again. So. There are many use cases. When you want. This MP3. To be repeated. Okay. So if you want. Your MP3 to be repeated. Then you can use it. Now. After this. Muted. What will it do? It will mute the audio. And definitely. You don't want. By default. Your audio to be mute. In most of the cases. But. Sometimes we will want. That. The audio is muted. And we can say here. To the user. That brother. Whoever wants to listen. Unmute it. Sachin. What is it? When do we do this? When there are multiple audios. You want to show 5-6 audios at once. You can mute them. Your user can play. Unmute it. And see. Okay. So. You have control in your hand. If you want. You can use this thing. Okay. In total. This is the thing. So. I hope. You understood this thing. You must have enjoyed. Now. Preload. The most confusing attribute. Is. These values. The first value can be none. This is the default value. It indicates. That the browser should not preload. The audio at all. Okay. Preload means. If you want. The browser to fetch the data. Then. You will use the preload attribute. Otherwise. You will not use the preload attribute. Okay. Preload is equal to none. It is the default value. Preload is equal to metadata. Means. That the browser. Only metadata. That is. The information about that audio file. It will preload it. That is. It will load it from the beginning. And what will happen by doing auto. That the browser. Will preload the entire audio. Okay. So. Preload is equal to auto. If I do. It will download. And automatically. It will load. So that whenever the user plays it. Then the audio is saved. Okay. So. This is the work of the preload attribute. And in interviews. This preload attribute is asked a lot. So you should know. What is the preload attribute? Before moving forward. I want you to share this playlist. With your friends. Because I am seeing. That the interest is declining a lot. As we are moving forward in the videos. My request to you is. That you like this video. And with that. I will come to the end of this video. And I will come to the end of this video. So you like this video. And with that. As you are forging this repository. You should also star it. Okay. Your star. Your likes. All this will help me a lot. To bring such free courses. So this was. About audio and video tags. Okay. I have told you all the attributes. And you should definitely use it. I will give you all the images. So that you can try out this thing. Now a lot of people were asking. Can we use replit? See. I have not used replit in this course. But replit.com is an amazing website. So. I will give you all the images. So that you can try out this thing. Now a lot of people were asking. Can we use replit? See. I have not used replit in this course. But replit.com is an amazing website. If you want. You can use it in your phone. If you want to run html. There is a replit app. There is for iOS. There is for Android. So you can try it out. A lot of people are asking. How to do recording in the phone. Replit. But what I want now. VS code. Which most of the people. Want to use. Prefer. So I thought. Why not make videos in VS code. But I personally. Use replit a lot. Infact videos also come in replit. Next topic is SVG. So I will tell you. What is SVG. SVG is. SVG is. SVG is. SVG is. So I will tell you. What is SVG. SVG is. What is SVG. SVG is a format by which. You can create an image. With. High graphics. Vector images. So you will copy. So you can basically make a circle in it. You can make all this. So SVG is used in the same way. As. How to use. Our IMG tags. So see. If I put SVG here. So this SVG. Will come here. So it has come here. Video. Audio. SVG. These inline elements. So that's the only. that's why we are getting only one image in line you guys have seen it here now what is here is that you can save svg file separately you can save svg file separately like if i write here img.svg and save svg content in it so if i write here img and write img.svg so you guys see here that i didn't get this image if i write alt here and write my svg image so you guys see here that my svg image is like this but i didn't get svg why this happened? this happened because svg file in browser i write and when you want to see svg file in browser you will put a declaration above i will show you so i wrote svg file not showing so here is an answer of stack overflow which will tell you so you have to write this you have to add this this is called namespace declaration so you have to add svg and now you guys see here svg is shown this is very important and when you guys will make websites in future you will get stuck in this problem i get stuck in this problem so i am telling you i have already told you the problem you will get stuck in you didn't get the problem i have told you the problem and solution next topic is iframes iframes is a very simple thing you can embed another website in your website like if i want to embed this webpage so i can use iframes like this so i wrote iframes and i will copy this url and i will paste here and you guys see here this website is embedded in this iframes you definitely want to embed in this big iframes but if you want to embed so you can embed like this i will increase the height so width is equal to width width is equal to let's say 122 height is equal to 444 ok so it came like this now definitely it was coming in this width so it came in this line but if i increase the width 322 so you can see my website is completely embedded so you can embed a website another use case of iframes is youtube video if you want to share youtube video and click on embed so it will give you iframes code and you can start it here if you want to start at a particular time so you can do that here the point at which you will start and share it, that time will come here let me show you let's say i want to start from here so i will click on share after sharing i will click on embed i will start at 1219 and i will copy it and i will put it in my code so i will comment this iframe and i will put it in the iframe below ok, i will do word wrap so you can see the code properly so now what i will do after pasting it i will show you the document see this video is embedded here so i hope you understood this and media in html is only this pretty much ok, miscellaneous you will get to see many things in html but pretty much that's all about media in html audio, video, media this is what you will use 95% of the times now i will give you a quick quiz and your quick quiz is create a website which shows videos of different category and audios of different categories you can use youtube videos in an iframe using youtube's embedding feature now what you have to do you have to create a website in which you will get a lot of content now you can use video audio tags and youtube's share feature the way i have embedded youtube video you can do the same and create a very good website and show me you can give me a github comment and you can also tell me the code and explain but do attempt this quiz and do write sigma batch op in the comment section access the playlist like the video and do write sigma batch op thank you so much guys for watching this video and i will see you next time"
+}

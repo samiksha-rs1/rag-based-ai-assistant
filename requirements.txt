@@ -1,0 +1,16 @@
+# AI & LLM
+openai
+openai-whisper
+
+# Data Processing & Vector Search
+pandas
+numpy
+joblib
+faiss-cpu
+
+# Networking & Environment
+requests
+python-dotenv
+
+# Video Processing
+yt-dlp
