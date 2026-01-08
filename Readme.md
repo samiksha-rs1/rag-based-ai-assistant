@@ -57,7 +57,7 @@ Read the joblib file and load it into the memory. Then create a relevant prompt 
 
 The system follows a strict Retrieval-Augmented Generation (RAG) pipeline
 to ensure answers are generated **only from course video transcripts**.
-
+```text
                 ┌──────────────────────┐
                 │   Educational Videos │
                 └──────────┬───────────┘
