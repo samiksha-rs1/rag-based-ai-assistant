@@ -52,4 +52,4 @@ Read the joblib file and load it into the memory. Then create a relevant prompt 
 ## Automated Testing
 To verify the system's "strictness" and accuracy, you can run the automated test suite:
 ```bash
-python tests/rag_tester.py
+python tests/rag_tester_final.py
