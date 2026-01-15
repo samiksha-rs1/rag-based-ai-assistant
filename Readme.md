@@ -1,6 +1,12 @@
 # RAG AI Teaching Assistant
 A high-performance, transcript-grounded Retrieval-Augmented Generation (RAG) system designed specifically for students. This assistant ensures students get accurate answers with exact video timestamps, keeping the learning experience focused and efficient.
 
+## System Architecture
+
+<p align="center">
+  <img src="system_architecture.png" alt="RAG AI System Architecture" width="700"/>
+</p>
+
 ##  Key Features
 * **Transcript Grounding:** The AI answers strictly based on the course transcripts to avoid hallucinations.
 * **Exact Video Citations:** Every answer identifies the specific video and the exact second where the topic is explained.
